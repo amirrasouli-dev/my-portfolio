@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="جی‌بی شاپ؛ فروشگاه اینترنتی کالای دیجیتال، لوازم خانه و اکسسوری با ارسال سریع و ضمانت اصالت"
+    />
+    <meta name="theme-color" content="#C62828" />
+    <title>جی‌بی شاپ | فروشگاه اینترنتی</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <a
+    href="../../projects.html"
+    style="
+      position: fixed;
+      bottom: 16px;
+      left: 16px;
+      z-index: 999;
+      background: #222;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      text-decoration: none;
+    "
+    >← بازگشت به پورتفولیو</a
+  >
+  <body>
+    <div class="top">ارسال رایگان برای خرید بالای ۱٬۵۰۰٬۰۰۰ تومان</div>
+    <header>
+      <div class="wrap bar">
+        <a href="#" class="logo" aria-label="جی‌بی شاپ">
+          <svg width="46" height="46" viewBox="0 0 64 64" aria-hidden="true">
+            <path
+              d="M22 22v-4a10 10 0 0 1 20 0v4"
+              fill="none"
+              stroke="#C62828"
+              stroke-width="4"
+              stroke-linecap="round"
+            />
+            <path
+              d="M8 22h48l-3 34a4 4 0 0 1-4 3H15a4 4 0 0 1-4-3z"
+              fill="#C62828"
+            />
+            <text
+              x="32"
+              y="50"
+              text-anchor="middle"
+              font-family="Vazirmatn,Arial,sans-serif"
+              font-weight="800"
+              font-size="22"
+              fill="#F8F0E3"
+            >
+              GB
+            </text>
+          </svg>
+          <div><b>جی‌بی شاپ</b><small>GB SHOP</small></div>
+        </a>
+        <nav id="nav">
+          <a href="#products">محصولات</a><a href="#about">درباره ما</a
+          ><a href="#faq">سؤالات متداول</a><a href="#contact">تماس</a>
+        </nav>
+        <button class="menu" id="menu" aria-label="منو" aria-expanded="false">
+          ☰
+        </button>
+        <button class="cartbtn" id="open" aria-label="سبد خرید">
+          سبد خرید <span id="count">۰</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero">
+        <div>
+          <h1>هر چیزی که لازم داری، <em>با یک کلیک</em> در دسترس</h1>
+          <p>
+            محصولات اصل و با کیفیت، قیمت شفاف و ارسال سریع به سراسر کشور. بدون
+            پیچیدگی، بدون هزینه پنهان.
+          </p>
+          <a href="#products" class="btn">مشاهده محصولات</a
+          ><a href="#about" class="btn ghost">چرا جی‌بی شاپ؟</a>
+        </div>
+        <div class="badge">
+          <div>تا<strong>۳۰٪</strong>تخفیف ویژه<br />اولین خرید</div>
+        </div>
+      </section>
+
+      <section class="perks">
+        <div><b>ضمانت اصالت</b>همه کالاها اصل و دارای ضمانت</div>
+        <div><b>ارسال سریع</b>تحویل تهران ۲۴ ساعته</div>
+        <div><b>۷ روز بازگشت</b>مرجوعی بدون دردسر</div>
+        <div><b>پشتیبانی</b>پاسخگویی هر روز</div>
+      </section>
+
+      <section id="products">
+        <h2>محصولات</h2>
+        <div class="tools">
+          <input
+            id="q"
+            type="search"
+            placeholder="جستجوی محصول..."
+            aria-label="جستجو"
+          /><select id="sort" aria-label="مرتب‌سازی">
+            <option value="d">پیش‌فرض</option>
+            <option value="a">ارزان‌ترین</option>
+            <option value="z">گران‌ترین</option>
+            <option value="o">بیشترین تخفیف</option>
+          </select>
+        </div>
+        <div class="tabs" id="tabs"></div>
+        <div class="grid" id="grid"></div>
+      </section>
+
+      <section class="about" id="about">
+        <div>
+          <h2>درباره جی‌بی شاپ</h2>
+          <p>
+            ما انتخاب کالا را ساده کرده‌ایم: هر محصول قبل از ورود به فروشگاه
+            بررسی می‌شود و قیمت نهایی همان است که می‌بینید.
+          </p>
+        </div>
+        <div>
+          <h2>خرید مطمئن</h2>
+          <p>
+            پرداخت امن، پیگیری سفارش و پشتیبانی واقعی. اگر کالا مطابق توضیحات
+            نبود، تا ۷ روز می‌توانید مرجوع کنید.
+          </p>
+        </div>
+      </section>
+      <section id="faq" style="margin-bottom: 48px">
+        <h2>سؤالات متداول</h2>
+        <details>
+          <summary>هزینه ارسال چقدر است؟</summary>
+          <p>
+            برای خرید بالای ۱٬۵۰۰٬۰۰۰ تومان ارسال رایگان است؛ در غیر این صورت
+            ۶۵٬۰۰۰ تومان.
+          </p>
+        </details>
+        <details>
+          <summary>چطور سفارشم را پیگیری کنم؟</summary>
+          <p>
+            پس از ثبت سفارش، کد پیگیری نمایش داده می‌شود و با پشتیبانی هم قابل
+            پیگیری است.
+          </p>
+        </details>
+        <details>
+          <summary>شرایط مرجوع کردن چیست؟</summary>
+          <p>
+            تا ۷ روز پس از تحویل، اگر کالا استفاده نشده و در بسته‌بندی اصلی
+            باشد، قابل مرجوع است.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="wrap">
+        <div><b>جی‌بی شاپ</b><br />همه روزه ۹ تا ۲۱</div>
+        <div>تلفن: ۰۲۱-۰۰۰۰۰۰۰۰<br />ایمیل: info@example.com</div>
+        <div>create and develop by Arycode</div>
+      </div>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="کافه بُن؛ قهوه تخصصی، دسر دست‌ساز و فضایی آرام برای کار و گفتگو"
+    />
+    <meta name="theme-color" content="#3B2416" />
+    <title>کافه بُن | قهوه تخصصی</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;700&family=Vazirmatn:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <a
+    href="../../projects.html"
+    style="
+      position: fixed;
+      bottom: 16px;
+      left: 16px;
+      z-index: 999;
+      background: #222;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      text-decoration: none;
+    "
+    >← بازگشت به پورتفولیو</a
+  >
+  <body>
+    <header>
+      <div class="w bar">
+        <a href="#" class="logo" aria-label="کافه بُن">
+          <svg width="38" height="38" viewBox="0 0 48 48" aria-hidden="true">
+            <circle cx="24" cy="24" r="22" fill="#3B2416" />
+            <ellipse
+              cx="24"
+              cy="24"
+              rx="10"
+              ry="14"
+              transform="rotate(30 24 24)"
+              fill="#C9A27A"
+            />
+            <path
+              d="M17 33c6-6 8-12 14-18"
+              stroke="#3B2416"
+              stroke-width="2.4"
+              fill="none"
+              stroke-linecap="round"
+            />
+          </svg>
+          کافه بُن</a
+        >
+        <nav id="nav">
+          <a href="#about">درباره ما</a><a href="#menu">منو</a
+          ><a href="#gallery">گالری</a><a href="#reserve">رزرو و تماس</a>
+        </nav>
+        <a href="#reserve" class="btn">رزرو میز</a>
+        <button
+          class="burger"
+          id="burger"
+          aria-label="منو"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="w">
+          <div>
+            <h1>قهوه‌ای که <br />وقت می‌گیرد، <br />و ارزشش را دارد</h1>
+            <p>
+              دانه‌های برشته‌شده هفتگی، دسرهای دست‌ساز و میزی آرام برای کار،
+              قرار یا فقط نشستن.
+            </p>
+            <div class="acts">
+              <a href="#menu" class="btn">دیدن منو</a
+              ><a href="#reserve" class="btn o">رزرو میز</a>
+            </div>
+          </div>
+          <div class="arch">
+            <div class="ph" data-img="hero"><img src="images/img1.webp" alt="عکس فیک کافه"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="facts">
+        <div class="w">
+          <span><b>ساعت کار:</b> هر روز ۸ تا ۲۳</span
+          ><span><b>آدرس:</b> تهران، پاسداران</span
+          ><span><b>وای‌فای رایگان</b> و پریز کنار میزها</span>
+        </div>
+      </div>
+
+      <section class="about" id="about">
+        <div class="w">
+          <div class="pics">
+            <div><div class="ph" data-img="about1"><img src="images/img2.webp" alt="عکس فیک"></div></div>
+            <div><div class="ph" data-img="about2"><img src="images/img4.webp" alt="عکس فیک"></div></div>
+          </div>
+          <div>
+            <h2>یک خانه دوم، با بوی قهوه</h2>
+            <p>
+              کافه بُن را برای کسانی ساختیم که قهوه خوب را از قهوه معمولی تشخیص
+              می‌دهند و فضای ساده و گرم را دوست دارند. دانه‌ها را از مزارع منتخب
+              می‌گیریم و خودمان برشته می‌کنیم.
+            </p>
+            <p>
+              باریستاهای ما هر فنجان را با دقت می‌ریزند، چون باور داریم جزئیات
+              کوچک تجربه را می‌سازند.
+            </p>
+            <div class="vals">
+              <div><b>برشته هفتگی</b>تازه‌ترین دانه‌ها</div>
+              <div><b>دسر دست‌ساز</b>هر روز صبح پخته می‌شود</div>
+              <div><b>فضای آرام</b>مناسب کار و گفتگو</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu" id="menu">
+        <div class="w">
+          <h2>منو</h2>
+          <p class="lead">
+            قیمت‌ها به تومان است. برای گزینه‌های بدون لاکتوز از باریستا بپرسید.
+          </p>
+          <div class="tabs" id="tabs"></div>
+          <div class="items" id="items"></div>
+          <p class="note">
+            قیمت‌ها نمونه است و پیش از انتشار باید با منوی واقعی جایگزین شود.
+          </p>
+        </div>
+      </section>
+
+      <section class="sig">
+        <div class="w">
+          <h2>پیشنهاد باریستا</h2>
+          <p class="lead">
+            سه نوشیدنی که اگر اولین بار می‌آیید، از آن‌ها شروع کنید.
+          </p>
+          <div class="sg">
+            <div>
+              <h3>فلت وایت بُن</h3>
+              <p>
+                دو شات اسپرسو با شیر مخملی، شیرین‌تر از کاپوچینو و پررنگ‌تر از
+                لاته.
+              </p>
+            </div>
+            <div>
+              <h3>کلد برو نارنجی</h3>
+              <p>۱۸ ساعت دم‌آوری سرد با پوست پرتقال، تازه و کم‌اسید.</p>
+            </div>
+            <div>
+              <h3>موکای کارامل نمکی</h3>
+              <p>شکلات تلخ، اسپرسو و کارامل نمکی خانگی.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="w">
+          <h2>گوشه‌هایی از کافه</h2>
+          <p class="lead">نور، چوب و بوی قهوه؛ این‌جا همه‌چیز آرام‌تر است.</p>
+          <div class="gal">
+            <div class="a"><div class="ph" data-img="g1"><img src="images/img3.webp" alt="عکس فیک کافه"></div></div>
+            <div><div class="ph" data-img="g2"><img src="images/img6.webp" alt="عکس فیک کافه"></div></div>
+            <div class="b"><div class="ph" data-img="g3"><img src="images/img7.webp" alt="عکس فیک کافه"></div></div>
+            <div><div class="ph" data-img="g4"><img src="images/img8.webp" alt="عکس فیک کافه"></div></div>
+            <div class="c"><div class="ph" data-img="g5"><img src="images/img10.webp" alt="عکس فیک کافه"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rvw">
+        <div class="w">
+          <h2>مهمان‌ها چه می‌گویند</h2>
+          <p class="lead">
+            نظرهای نمونه؛ بعداً با نظر واقعی مشتری‌ها جایگزین کنید.
+          </p>
+          <div class="rg">
+            <blockquote>
+              قهوه‌شان واقعاً تازه است و فضا برای کار کردن عالی؛ هفته‌ای چند بار
+              می‌روم.<cite>مریم، طراح</cite>
+            </blockquote>
+            <blockquote>
+              چیزکیک و فلت وایت‌شان را امتحان کنید. سرویس‌دهی هم سریع و مؤدبانه
+              است.<cite>علی، برنامه‌نویس</cite>
+            </blockquote>
+            <blockquote>
+              برای قرار دوستانه جای دنج و تمیزی است و موسیقی‌اش آرام.<cite
+                >سارا، دانشجو</cite
+              >
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="reserve">
+        <div class="w rv">
+          <div>
+            <h2>رزرو میز و تماس</h2>
+            <p class="lead">
+              برای جمع‌های بیشتر از چهار نفر، قبلاً رزرو کنید تا میز آماده باشد.
+            </p>
+            <ul class="hrs">
+              <li><span>شنبه تا چهارشنبه</span><span>۸ تا ۲۳</span></li>
+              <li><span>پنجشنبه و جمعه</span><span>۹ تا ۲۴</span></li>
+            </ul>
+            <p style="margin: 0 0 14px">
+              تهران ، پاسداران<br />تلفن: ۰۲۱-۰۰۰۰۰۰۰۰ · اینستاگرام:
+              @cafebon
+            </p>
+            <div class="map">
+              <div class="ph" data-img="map"><img src="images/img5 - Copy (2).webp" alt="عکس فیک نقشه"></div>
+            </div>
+          </div>
+          <form id="rf" novalidate>
+            <h3>رزرو آنلاین</h3>
+            <label
+              >نام<input name="name" autocomplete="name" /><span
+                class="er"
+              ></span
+            ></label>
+            <label
+              >شماره موبایل<input
+                name="phone"
+                inputmode="numeric"
+                autocomplete="tel"
+                placeholder="09123456789" /><span class="er"></span
+            ></label>
+            <div class="g2">
+              <label
+                >تاریخ<input name="date" type="date" /><span
+                  class="er"
+                ></span></label
+              ><label
+                >ساعت<select name="time">
+                  <option value="">انتخاب</option></select
+                ><span class="er"></span
+              ></label>
+            </div>
+            <label
+              >تعداد نفرات<select name="n">
+                <option>۱</option>
+                <option selected>۲</option>
+                <option>۳</option>
+                <option>۴</option>
+                <option>۵</option>
+                <option>۶</option>
+                <option>بیشتر از ۶</option>
+              </select></label
+            >
+            <button class="btn" type="submit">ثبت رزرو</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="w">
+        <div>
+          <h3>کافه بُن</h3>
+          قهوه تخصصی، دسر دست‌ساز و فضایی برای مکث.
+        </div>
+        <div>
+          <h3>دسترسی</h3>
+          <a href="#menu">منو</a><br /><a href="#gallery">گالری</a><br /><a
+            href="#reserve"
+            >رزرو</a
+          >
+        </div>
+        <div>
+          <h3>ارتباط</h3>
+          ۰۲۱-۰۰۰۰۰۰۰۰<br />hello@example.com
+        </div>
+        <span class="c">create and develop by Arycode</span>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
